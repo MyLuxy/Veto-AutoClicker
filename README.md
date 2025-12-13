@@ -17,7 +17,7 @@
 -----
 
 ## 💦 Preview
-<p align="center">
+&nbsp;<p align="center">
   <img alt="VetoParallax" src="https://github.com/user-attachments/assets/4202a7c5-12e2-4e05-b725-20e6de4d4d97" />
 </p>&nbsp;
 
