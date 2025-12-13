@@ -1,4 +1,4 @@
-## ⚡<img width="256" height="256" alt="veto_icon" src="https://github.com/user-attachments/assets/fbc158b2-9b76-4b46-80ca-e912e83b79b3" /> Veto - The Minimalist AutoClicker
+<img width="1024" height="1024" alt="VetoComplete" src="https://github.com/user-attachments/assets/256fa1df-2f5c-4e70-bc6a-44fefe759174" />
 
 Veto is a high-performance, discreet, and modern autoclicker designed for gaming and general use. It features a clean, dark-themed User Interface (GUI) and precise hotkey management for reliable activation.
 
