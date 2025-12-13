@@ -63,7 +63,11 @@ pyinstaller --noconfirm --onefile --windowed --name "VetoClicker" \
 
 ### 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/deed.en)**.
+
+> **❗ IMPORTANT: Non-Commercial Use Only**
+>
+> You are free to share and adapt this software for personal and non-commercial purposes, provided you give appropriate credit. **Commercial use of this project is strictly prohibited.**
 
 -----
 
