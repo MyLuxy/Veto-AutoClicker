@@ -1,7 +1,3 @@
-Certo\! Ecco la descrizione completa per GitHub, interamente in inglese, formattata in Markdown per il tuo file `README.md`.
-
------
-
 ## ⚡ Veto - The Minimalist AutoClicker
 
 Veto is a high-performance, discreet, and modern autoclicker designed for gaming and general use. It features a clean, dark-themed User Interface (GUI) and precise hotkey management for reliable activation.
