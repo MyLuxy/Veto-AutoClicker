@@ -1,6 +1,6 @@
-  <center>
-    <img width="353" height="143" alt="VetoComplete" src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" />
-</center>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="Anteprima Veto 3D" width="700"/> 
+  </p>
 
 
 
