@@ -1,7 +1,7 @@
    <img width="353" height="143" alt="VetoComplete" src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" />&nbsp;&nbsp;
 
 
-Veto is a high-performance, discreet, and modern autoclicker designed for gaming and general use. It features a clean, dark-themed User Interface (GUI) and precise hotkey management for reliable activation.
+
 
 ### ✨ Key Features
 
@@ -13,6 +13,11 @@ Veto is a high-performance, discreet, and modern autoclicker designed for gaming
   * **Persistent Settings:** CPS settings and hotkeys are automatically saved for your next session.
 
 -----
+
+## 💦 Preview
+
+<img width="500" height="696" alt="VetoParallax" src="https://github.com/user-attachments/assets/4202a7c5-12e2-4e05-b725-20e6de4d4d97" />&nbsp;&nbsp;
+
 
 ### 🚀 How to Use Veto (Quick Start)
 
