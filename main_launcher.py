@@ -7,12 +7,11 @@ import sys
 
 from Veto import VetoClicker, resource_path 
 
-# --- CONFIGURAZIONE SPLASH SCREEN ---
+# --- CONFIG SPLASH ---
 GIF_FILE = "veto_splash.gif"
 SPLASH_DURATION_SECONDS = 3.0
 SPLASH_WIDTH = 350
 SPLASH_HEIGHT = 350
-# ------------------------------------
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
@@ -102,3 +101,4 @@ if __name__ == "__main__":
     splash = SplashScreen()
 
     splash.mainloop()
+
