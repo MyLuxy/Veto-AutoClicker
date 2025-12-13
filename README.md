@@ -71,7 +71,8 @@ This project is licensed under the **[Creative Commons Attribution-NonCommercial
 > You are free to share and adapt this software for personal and non-commercial purposes, provided you give appropriate credit. **Commercial use of this project is strictly prohibited.**
 
 -----
+###                                                                                                                                                                                         Contact me
+### <img width="50" height="50" alt="Telegram-icon-on-transparent-background-PNG-removebg-preview" src="https://github.com/user-attachments/assets/2b2a17a7-f221-4712-9eeb-d04dc691a277" />
 
-### Contact me
 
 You can contact me on telegram for suggestions, bug reports, and feature contributions. [@MyLuxy](https://t.me/MyLuxy)
