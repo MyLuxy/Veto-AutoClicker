@@ -56,6 +56,7 @@ pyinstaller --noconfirm --onefile --windowed --name "VetoClicker" \
 --add-data "settings.json:." \
 --hidden-import "pynput.mouse" \
 --hidden-import "pynput.keyboard" \
+--distpath "dist" \
 "main_launcher.py"
 ```
 
