@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="Anteprima Veto 3D" width="700"/> 
+  <img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="Anteprima Veto 3D"/> 
   </p>
 
 
