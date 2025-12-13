@@ -4,7 +4,7 @@ Veto - A modern autoclicker with dark theme GUI
 Author: MyLuxy
 """
 import customtkinter as ctk
-from PIL import Image, ImageSequence # Manteniamo ImageSequence per non avere dipendenze inter-file
+from PIL import Image, ImageSequence
 from pynput import mouse, keyboard
 from pynput.mouse import Button, Controller as MouseController, Listener as MouseListener
 from pynput.keyboard import Key, Listener as KeyboardListener
@@ -20,14 +20,12 @@ import ctypes
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
 
-# Funzione per gestire i percorsi dei file (per PyInstaller)
+# Funzione per gestire i percorsi dei file /pynstaller
 def resource_path(relative_path):
     """ Ottiene il percorso assoluto delle risorse, funziona per dev e per PyInstaller """
     try:
-        # Quando compilato con PyInstaller
         base_path = sys._MEIPASS
     except Exception:
-        # Quando eseguito normalmente
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
@@ -51,26 +49,19 @@ class VetoClicker(ctk.CTk):
     def __init__(self):
         super().__init__()
         
-        # --- LOGICA ICONA E TASKBAR ---
         icon_name = "veto_icon.ico" 
         full_icon_path = resource_path(icon_name)
 
         if sys.platform == "win32":
-            # Imposta l'ID per la barra delle applicazioni (Windows)
             myappid = 'veto.autoclicker.v1' 
             ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
             
-            # Carica l'icona nella finestra
             try:
                 if os.path.exists(full_icon_path):
                     self.iconbitmap(full_icon_path)
             except Exception as e:
-                # Può fallire se il file non è disponibile immediatamente (es. durante l'avvio)
                 print(f"Errore caricamento icona: {e}")
-        # ------------------------------
     
-
-        # Window setup
         self.title("Veto")
         #self.geometry("440x620")
         self.resizable(False, False)
@@ -658,4 +649,5 @@ class VetoClicker(ctk.CTk):
             self.keyboard_listener.stop()
         if self.mouse_listener:
             self.mouse_listener.stop()
+
         self.destroy()
