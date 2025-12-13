@@ -1,4 +1,4 @@
-## ⚡ Veto - The Minimalist AutoClicker
+## ⚡<img width="256" height="256" alt="veto_icon" src="https://github.com/user-attachments/assets/fbc158b2-9b76-4b46-80ca-e912e83b79b3" /> Veto - The Minimalist AutoClicker
 
 Veto is a high-performance, discreet, and modern autoclicker designed for gaming and general use. It features a clean, dark-themed User Interface (GUI) and precise hotkey management for reliable activation.
 
@@ -33,26 +33,6 @@ If you wish to compile Veto from the source code, you will need Python 3 and the
 pip install customtkinter pynput Pillow
 ```
 
-#### Project File Structure
-
-Ensure all necessary files are located in your root project directory:
-
-```
-veto_project/
-├── main_launcher.py  # Application entry point (includes Splash Screen)
-├── veto.py           # Core application logic
-├── veto_icon.ico     # Application icon
-└── veto_splash.gif   # Splash Screen animation
-```
-
-#### Compiling for Windows (.exe)
-
-Use PyInstaller to create a standalone executable. **Note: The command must be run on a single line in Windows CMD/PowerShell, or use the appropriate line continuation character (`^` or `` ` ``).**
-
-```bash
-pyinstaller --noconfirm --onefile --windowed --name "VetoClicker" --icon "veto_icon.ico" --add-data "veto_icon.ico;." --add-data "veto_splash.gif;." --add-data "veto.py;." --add-data "settings.json;." --hidden-import "pynput.mouse" --hidden-import "pynput.keyboard" "main_launcher.py"
-```
-
 #### Compiling for Linux (Maximum Compatibility via Docker)
 
 For the best compatibility across various Linux distributions, use a Docker container to compile the executable:
@@ -79,6 +59,6 @@ This project is licensed under the MIT License.
 
 -----
 
-### Contributions
+### Contact me
 
-Suggestions, bug reports, and feature contributions are welcome\! Please feel free to open an Issue or submit a Pull Request.
+You can contact me on telegram for suggestions, bug reports, and feature contributions. [@MyLuxy](https://t.me/MyLuxy)
