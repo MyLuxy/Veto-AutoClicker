@@ -1,0 +1,15 @@
+{
+  "min_cps": "10",
+  "max_cps": "15",
+  "randomize": true,
+  "left_hotkey_str": "Mouse 4",
+  "left_hotkey_is_mouse": true,
+  "right_enabled": true,
+  "right_hotkey_str": "None",
+  "right_hotkey_is_mouse": false,
+  "hold_enabled": true,
+  "hold_hotkey_str": "None",
+  "hold_hotkey_is_mouse": false,
+  "hold_mode": "single",
+  "hold_cps": "5"
+}
