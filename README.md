@@ -18,7 +18,7 @@
 
 ### 💦 Preview
 &nbsp;<p align="center">
-  <img alt="VetoParallax" src="https://github.com/user-attachments/assets/4202a7c5-12e2-4e05-b725-20e6de4d4d97" />
+  <img alt="VetoParallax" src="https://github.com/user-attachments/assets/188bed8d-582c-4068-8e95-f5c04f8d97e7" />
 </p>&nbsp;
 
 ### 🚀 How to Use Veto (Quick Start)
@@ -40,8 +40,15 @@ If you wish to compile Veto from the source code, you will need Python 3 and the
 ```bash
 pip install customtkinter pynput Pillow
 ```
+#### Compiling for Windows
 
-#### Compiling for Linux (Maximum Compatibility via Docker)
+Use this command on the terminal to compile
+
+```bash
+pyinstaller --onefile --windowed --icon=assets/veto_icon.ico --add-data "veto_splash.gif;." --add-data "assets/VetoComplete.png;assets" --add-data "assets/veto_icon.ico;assets" --name Veto main_launcher.py
+```
+
+#### Compiling for Linux (Via Docker)
 
 For the best compatibility across various Linux distributions, use a Docker container to compile the executable:
 
